@@ -3,14 +3,17 @@
     <title>CDCM CLGT</title>
   </head>
   <body>
-    <p>Hello World!</p>
-    <div>
-      <form>
-        First name:<br>
-        <input type="text" name="firstname"><br>
-        Last name:<br>
-        <input type="text" name="lastname">
-      </form>
-    </div>
+    <form>
+      <label>Tên đối tượng</label>
+      <input type="text" value="MucVatTuDeXuat"/>
+      <br/><br/>
+      <label>Tên thuộc tính</label>
+      <input type="text" value="STT"/>
+      <label>Kiểu dữ liệu</label>
+      <input type="text" value="text"/>
+      <br/><br/>
+      <button type="button">Thêm thuộc tính</button>
+      <button type="button" onclick="alert('Chưa viết hàm lưu data.xml')">Lưu đối tượng</button>
+    </form>
   </body>
 </html>
